@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: 192.168.6.135:8082/demo-k8s
+  tag: "latest"
+
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 8080
+  nodePort: 30090
