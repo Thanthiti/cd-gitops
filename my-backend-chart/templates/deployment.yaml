@@ -11,6 +11,8 @@ spec:
     metadata:
       labels:
         app: backend
+      annotations:
+        rollout-timestamp: {{ .Values.deployTimestamp | quote }}
     spec:
       containers:
         - name: my-backend-app
