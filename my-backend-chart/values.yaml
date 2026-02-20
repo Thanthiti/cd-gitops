@@ -10,3 +10,5 @@ service:
   port: 80
   targetPort: 8080
   nodePort: 30090
+
+deployTimestamp: "2024-01-01T00:00:00"
