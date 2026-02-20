@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: 192.168.6.135:8082/demo-k8s
-  tag: "latest"
+  tag: v1.0.74
 
 
 service:
@@ -11,4 +11,4 @@ service:
   targetPort: 8080
   nodePort: 30090
 
-deployTimestamp: "2024-01-01T00:00:00"
+deployTimestamp: "2026-02-20T12:57:45"
